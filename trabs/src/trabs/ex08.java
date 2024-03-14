@@ -1,5 +1,6 @@
 package trabs;
 
+import java.text.DecimalFormat;
 import java.util.Scanner;
 
 public class ex08 {
@@ -7,10 +8,16 @@ public class ex08 {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		
-		double num1, digi;
+		int num1;
+		String dig1;
+
+		System.out.println("Digite um numero de 3 caracter");
+		num1 = teclado.nextInt();
 		
-		num1 = teclado.nextDouble();
-//tem que terminar
+		dig1 = Integer.toString(num1);
+		char valor = dig1.charAt(2);
+		System.out.println("O caractere na posição 3 é: " + valor);
+		DecimalFormat mascara = new DecimalFormat();
 	}
 
 }
