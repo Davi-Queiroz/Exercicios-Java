@@ -15,8 +15,8 @@ public class ex08 {
 		num1 = teclado.nextInt();
 		
 		dig1 = Integer.toString(num1);
-		char valor = dig1.charAt(2);
-		System.out.println("O caractere na posição 3 é: " + valor);
+		char valor = dig1.charAt(1);
+		System.out.println("O caractere na posiÃ§Ã£o 3 Ã©: " + valor);
 		DecimalFormat mascara = new DecimalFormat();
 	}
 
